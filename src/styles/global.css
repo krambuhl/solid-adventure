@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: --line-height-body;
+  tab-size: 4;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--bg-base);
+  color: var(--content-default);
+}
+
+body {
+  padding: 2em;
+  margin: 0;
+  line-height: inherit;
+}
+
+a {
+  text-decoration: underline;
+}
